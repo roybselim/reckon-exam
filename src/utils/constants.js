@@ -8,7 +8,6 @@ export const SUMMARY_LABEL = 'Summary';
 
 // APIs and API related
 export const DATA_API_URL = 'https://join.reckon.com/stock-pricing';
-export const GET_SUCCESS_STATUS = 200;
 
 // Constants for StockPriceLogs
 export const UPDATES_FOR_LABEL = 'Updates for';

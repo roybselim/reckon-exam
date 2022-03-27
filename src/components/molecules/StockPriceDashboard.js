@@ -25,8 +25,6 @@ const StockPriceDashboard = () => {
     const [productsByCode, setProductsByCode] = useState([]);
     const [APICallSuccess, setAPICallSuccess] = useState(false);
     const [initialEntry, setInitialEntry] = useState([]);
-
-    console.dir(priceMatrix)
     
     const pauseButtonLabel = logPaused ? BTN_LABEL_RESUME : BTN_LABEL_PAUSE
 
