@@ -1,0 +1,43 @@
+
+/* ClassNames */
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.pauseBtn {
+    height: 30px;
+    width: 85px;
+}
+
+.stockPriceLogsContainer {
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.padBtm25 {
+    padding-bottom: 25px;
+}
+
+.dashboardItemContainer {
+    flex: 1;
+    padding: 15px;
+}
+
+.dashboardItemHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summaryContainer {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.flex1 {
+    flex: 1;
+}
